@@ -70,8 +70,10 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
+#include "parser.tab.h"
 
-#line 75 "parser.tab.c"
+#line 77 "parser.tab.c"
 
 # ifndef YY_CAST
 #  ifdef __cplusplus
@@ -507,8 +509,8 @@ static const yytype_int8 yytranslate[] =
   /* YYRLINE[YYN] -- Source line where rule number YYN was defined.  */
 static const yytype_int8 yyrline[] =
 {
-       0,    10,    10,    14,    15,    19,    23,    24,    25,    29,
-      30,    31,    35,    36,    37
+       0,    12,    12,    16,    17,    21,    25,    26,    27,    31,
+      32,    33,    37,    38,    39
 };
 #endif
 
@@ -1305,7 +1307,7 @@ yyreduce:
   switch (yyn)
     {
 
-#line 1309 "parser.tab.c"
+#line 1311 "parser.tab.c"
 
       default: break;
     }
@@ -1537,7 +1539,7 @@ yyreturn:
 #endif
   return yyresult;
 }
-#line 40 "parser.y"
+#line 42 "parser.y"
 
 
 int main(void) {

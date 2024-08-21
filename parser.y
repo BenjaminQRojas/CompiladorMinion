@@ -1,6 +1,8 @@
 %{
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
+#include "parser.tab.h"
 %}
 
 %token NUMBER IDENTIFIER ASSIGN PLUS MINUS MULT DIV LBRACE RBRACE SEMICOLON
